@@ -657,9 +657,8 @@ footer {
 
 .project-image {
     float: left;
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover;
+    max-width: 100%; /* Set a maximum width relative to the container */
+    height: auto; /* Allow the height to adjust proportionally */
 }
 
 .project-info {
