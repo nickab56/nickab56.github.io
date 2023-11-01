@@ -624,7 +624,7 @@ footer {
     // }
 
     ul {
-        margin: 10px 0;
+        margin: 10px 0 10px 0;
         padding-left: 20px; 
     }
 }
@@ -657,7 +657,9 @@ footer {
 
 .project-image {
     float: left;
-    max-width: 200px !important;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
 }
 
 .project-info {
