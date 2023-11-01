@@ -657,8 +657,8 @@ footer {
 
 .project-image {
     float: left;
-    max-width: 200px;
-    height: auto;
+    max-width: 200px !important;
+    height: auto !important;
 }
 
 .project-info {
