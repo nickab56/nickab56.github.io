@@ -880,6 +880,8 @@ footer {
     }
 
     p {
+        width: 100;
+        flex: 0 0.3 auto;
         margin: 0 0 15px 0;
         color: $text;
         font-size: 0.9em;
@@ -891,25 +893,20 @@ footer {
     }
 
     ul li {
-        margin: 0 0 15px 0;
-        padding-left: 20px;
-        position: relative;
-    }
-
-    ul li::before {
-        content: "•";
-        position: absolute;
-        left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 10%;
     }
 
     .optional-image {
         float: right;
-        width: 50%; /* Set a maximum width relative to the container */
         height: auto; /* Allow the height to adjust proportionally */
+        padding-left: 20%;
     }
 
     .optional-image img {
-        width: 50%; /* Set the image width to 100% to ensure it fits inside the optional section block */
+        width: 40%; /* Set the image width to 100% to ensure it fits inside the optional section block */
         height: auto; /* Allow the height to adjust proportionally */
     }
 }
